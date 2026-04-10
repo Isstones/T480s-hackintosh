@@ -9,11 +9,18 @@
 ### 我不是很擅长使用github，在这里提前感谢一下github上面诸多先驱的支持。
 ---
 
----
-
 ## 📢 提示：
-
+1.推荐系统版本为Macos15
+2.efi文件包含了rEFInd的启动引导
+3.使用oc的引导中发现有时候opencore引导window会导致window蓝屏
+4.推荐使用rEFInd引导windows，opencore引导macos
 ---
+## 📊 备注
+- wifi使用Heliport驱动，需自行下载dmg
+- CS18的雷电3接口(拓展坞的hdmi失效)
+- Card Reader (未测试)
+- WWAN (未测试)
+- 机身HDMI正常驱动
 
 ## 🚀 快速开始
 ### 1. 下载 EFI
@@ -28,7 +35,7 @@
 | Component | Details |
 |----------:|:--------|
 | **型号** | Lenovo ThinkPad T480s |
-| **CPU** | Intel Core i5-8350U (4C/8T, 1.9GHz, Turbo 3.6GHz) |
+| **CPU** | Intel Core i5-8350U |
 | **iGPU** | Intel UHD Graphics 620 |
 | **RAM** | 1×8GB DDR4 2400MHz |
 | **SSD** | SN550 M.2 2280 1TB |
@@ -74,55 +81,7 @@
 
 ---
 
-## 📊 Status
 
-<details>
-<summary><b>✅ 正常使用</b></summary>
-
-| Feature | Notes |
-|---------|-------|
-| QE/CI & Hardware Acceleration | IQSV fully supported |
-| Battery Management | Accurate percentage |
-| CPU Power Management | Performance optimized |
-| USB-A & USB-C | Including power delivery |
-| HDMI Output | Video & audio |
-| Audio | Speaker, internal mic, 3.5mm jack |
-| WiFi 5GHz & 2.4GHz | Supported with Airdrop, Continuity, etc. |
-| Bluetooth | Fully functional |
-| Ethernet | Intel I219-LM |
-| Trackpad & Trackpoint | Full gesture support |
-| Touchscreen | Same as Trackpad, multi-gesture support |
-| Keyboard & Backlight | All keys working |
-| Internal Webcam | 720p HD |
-| Sleep/Wake | Stable |
-| ThinkPad Fn Keys | F1-F12 via YogaSMC |
-| iServices | iMessage, FaceTime, App Store, Find My |
-| Apple Music | Lossless/Hi-Res supported |
-| Airdrop | Send to iPhone only |
-| Continuity/Handoff | Universal Clipboard, etc. |
-| iPhone Camera | USB cable |
-| Android USB Tethering | HoRNDIS included |
-
-</details>
-
-<details>
-<summary><b>❌ 无法正常工作</b></summary>
-
-| Feature | Reason |
-|---------|--------|
-| Safari DRM / Apple TV+ | Requires dGPU (workaround: Chrome/Firefox with Widevine) |
-| Fingerprint Reader | No macOS driver |
-| Airdrop Receiver | Intel WiFi limitation |
-| iPhone Camera (Wireless) | Requires native AirDrop |
-
-</details>
-
-<details>
-<summary><b>🔍 没有测试</b></summary>
-
-- Thunderbolt 3 (no device to test)
-- Card Reader (no memory card)
-- WWAN (no card installed)
 
 </details>
 
@@ -130,13 +89,12 @@
 
 ## 🛠️ 使用到的工具
 
-| Tool | Description |
+| 工具 | 地址 |
 |------|-------------|
 | [ProperTree](https://github.com/corpnewt/ProperTree) | Plist editor |
 | [Hackintool](https://github.com/benbaker76/Hackintool) | System info & patches |
 | [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | OpenCore config editor |
 | [HiDPI](https://github.com/xzhih/one-key-hidpi) | One-key HiDPI script |
-| [MyKextInstaller](https://github.com/Mirone/MyKextInstaller) | Kext installer (Tahoe audio) |
 | [Python3](https://www.python.org/downloads/macos/) | For scripts |
 | [Homebrew](https://brew.sh/) | Package manager |
 

@@ -61,16 +61,16 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
-					<string>0.0fang.</string>
+					<string>11111111</string>
 					<key>ssid</key>
-					<string>lemon</string>
+					<string>Huawei</string>
 				</dict>
 				<key>WiFi_2</key>
 				<dict>
 					<key>password</key>
-					<string>YINGKE</string>
+					<string>123123123</string>
 					<key>ssid</key>
-					<string>YINGKE8888</string>
+					<string>Xiaomi</string>
 				</dict>
 				<key>WiFi_3</key>
 				<dict>
